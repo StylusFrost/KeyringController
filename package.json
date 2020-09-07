@@ -46,11 +46,11 @@
     "browser-passworder": "^2.0.3",
     "obs-store": "^4.0.3",
     "flureejs-wallet": "^0.1.3",
-    "flureejs-query":"^0.1.2",
-    "flureejs-request":"^0.1.2",
-    "flureejs-tx":"^0.1.2",
-    "fluree-simple-keyring":"^0.1.1",
-    "fluree-hd-keyring":"^0.1.0"
+    "flureejs-query":"^0.1.3",
+    "flureejs-request":"^0.1.3",
+    "flureejs-tx":"^0.1.3",
+    "fluree-simple-keyring":"^0.1.2",
+    "fluree-hd-keyring":"^0.1.1"
   },
   "devDependencies": {
     "bluebird": "^3.5.0",
