@@ -84,7 +84,7 @@
 
 ⊕ **new KeyringController**(opts: _`any`_): [KeyringController](keyringcontroller.md)
 
-_Defined in src/index.ts:20_
+_Defined in [src/index.ts:20](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L20)_
 
 **Parameters:**
 
@@ -104,7 +104,7 @@ _Defined in src/index.ts:20_
 
 **● encryptor**: _`any`_
 
-_Defined in src/index.ts:16_
+_Defined in [src/index.ts:16](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L16)_
 
 ---
 
@@ -114,7 +114,7 @@ _Defined in src/index.ts:16_
 
 **● initState**: _`Object`_
 
-_Defined in src/index.ts:20_
+_Defined in [src/index.ts:20](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L20)_
 
 ---
 
@@ -124,7 +124,7 @@ _Defined in src/index.ts:20_
 
 **● keyringTypes**: _`any`[]_
 
-_Defined in src/index.ts:18_
+_Defined in [src/index.ts:18](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L18)_
 
 ---
 
@@ -134,7 +134,7 @@ _Defined in src/index.ts:18_
 
 **● keyrings**: _`Array`<`any`>_
 
-_Defined in src/index.ts:17_
+_Defined in [src/index.ts:17](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L17)_
 
 ---
 
@@ -144,7 +144,7 @@ _Defined in src/index.ts:17_
 
 **● memStore**: _`any`_
 
-_Defined in src/index.ts:15_
+_Defined in [src/index.ts:15](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L15)_
 
 ---
 
@@ -154,7 +154,7 @@ _Defined in src/index.ts:15_
 
 **● password**: _`string` \| `undefined`_
 
-_Defined in src/index.ts:19_
+_Defined in [src/index.ts:19](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L19)_
 
 ---
 
@@ -164,7 +164,7 @@ _Defined in src/index.ts:19_
 
 **● store**: _`any`_
 
-_Defined in src/index.ts:14_
+_Defined in [src/index.ts:14](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L14)_
 
 ---
 
@@ -188,7 +188,7 @@ _Defined in node_modules/@types/node/events.d.ts:30_
 
 ▸ **\_restoreKeyring**(serialized: _`any`_): `Promise`<`any`>
 
-_Defined in src/index.ts:590_
+_Defined in [src/index.ts:590](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L590)_
 
 **Parameters:**
 
@@ -230,7 +230,7 @@ _Defined in node_modules/@types/node/events.d.ts:32_
 
 ▸ **addNewAccount**(selectedKeyring: _`any`_): `any`
 
-_Defined in src/index.ts:269_
+_Defined in [src/index.ts:269](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L269)_
 
 **Parameters:**
 
@@ -249,7 +249,7 @@ A Promise that resolves to the state.
 
 ▸ **addNewKeyring**(type: _`string`_, opts: _`any`_): `any`
 
-_Defined in src/index.ts:189_
+_Defined in [src/index.ts:189](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L189)_
 
 **Parameters:**
 
@@ -269,7 +269,7 @@ The new keyring.
 
 ▸ **checkForDuplicate**(type: _`string`_, newAccountArray: _`Array`<`Buffer`>_): `Promise`<`Buffer`[]>
 
-_Defined in src/index.ts:242_
+_Defined in [src/index.ts:242](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L242)_
 
 **Parameters:**
 
@@ -289,7 +289,7 @@ The account, if no duplicate is found.
 
 ▸ **clearKeyrings**(): `Promise`<`void`>
 
-_Defined in src/index.ts:639_
+_Defined in [src/index.ts:639](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L639)_
 
 **Returns:** `Promise`<`void`>
 
@@ -301,7 +301,7 @@ _Defined in src/index.ts:639_
 
 ▸ **createFirstKeyTree**(): `Promise`<`null`>
 
-_Defined in src/index.ts:564_
+_Defined in [src/index.ts:564](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L564)_
 
 **Returns:** `Promise`<`null`>
 
@@ -315,7 +315,7 @@ _Defined in src/index.ts:564_
 
 ▸ **createNewVaultAndKeychain**(password: _`string`_): `Promise`<`any`>
 
-_Defined in src/index.ts:70_
+_Defined in [src/index.ts:70](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L70)_
 
 **Parameters:**
 
@@ -334,7 +334,7 @@ A Promise that resolves to the state.
 
 ▸ **createNewVaultAndRestore**(password: _`string`_, seed: _`string`_): `Promise`<`any`>
 
-_Defined in src/index.ts:90_
+_Defined in [src/index.ts:90](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L90)_
 
 **Parameters:**
 
@@ -354,7 +354,7 @@ A Promise that resolves to the state.
 
 ▸ **displayForKeyring**(keyring: _`any`_): `any`
 
-_Defined in src/index.ts:623_
+_Defined in [src/index.ts:623](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L623)_
 
 **Parameters:**
 
@@ -412,7 +412,7 @@ _Defined in node_modules/@types/node/events.d.ts:45_
 
 ▸ **exportAccount**(authID: _`Buffer`_): `Promise`<`any`>
 
-_Defined in src/index.ts:293_
+_Defined in [src/index.ts:293](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L293)_
 
 **Parameters:**
 
@@ -431,7 +431,7 @@ The private key of the account.
 
 ▸ **exportAppKeyForAuthID**(authID: _`Buffer`_, origin: _`string`_): `Promise`<`any`>
 
-_Defined in src/index.ts:467_
+_Defined in [src/index.ts:467](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L467)_
 
 **Parameters:**
 
@@ -451,7 +451,7 @@ The app key private key.
 
 ▸ **fullUpdate**(): `any`
 
-_Defined in src/index.ts:53_
+_Defined in [src/index.ts:53](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L53)_
 
 **Returns:** `any`
 The controller state.
@@ -464,7 +464,7 @@ The controller state.
 
 ▸ **getAccounts**(): `Promise`<`Array`<`Buffer`>>
 
-_Defined in src/index.ts:348_
+_Defined in [src/index.ts:348](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L348)_
 
 **Returns:** `Promise`<`Array`<`Buffer`>>
 The array of accounts.
@@ -477,7 +477,7 @@ The array of accounts.
 
 ▸ **getAppKeyAuthID**(authID: _`Buffer`_, origin: _`string`_): `Promise`<`any`>
 
-_Defined in src/index.ts:455_
+_Defined in [src/index.ts:455](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L455)_
 
 **Parameters:**
 
@@ -497,7 +497,7 @@ The app key authID.
 
 ▸ **getKeyringClassForType**(type: _`string`_): `any`
 
-_Defined in src/index.ts:612_
+_Defined in [src/index.ts:612](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L612)_
 
 **Parameters:**
 
@@ -516,7 +516,7 @@ The class, if it exists.
 
 ▸ **getKeyringForAccount**(authID: _`Buffer`_): `Promise`<`any`>
 
-_Defined in src/index.ts:521_
+_Defined in [src/index.ts:521](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L521)_
 
 **Parameters:**
 
@@ -535,7 +535,7 @@ The keyring of the account, if it exists.
 
 ▸ **getKeyringsByType**(type: _`string`_): `any`[]
 
-_Defined in src/index.ts:545_
+_Defined in [src/index.ts:545](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L545)_
 
 **Parameters:**
 
@@ -683,7 +683,7 @@ _Defined in node_modules/@types/node/events.d.ts:34_
 
 ▸ **persistAllKeyrings**(password?: _`any`_): `Promise`<`boolean`>
 
-_Defined in src/index.ts:370_
+_Defined in [src/index.ts:370](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L370)_
 
 **Parameters:**
 
@@ -770,7 +770,7 @@ _Defined in node_modules/@types/node/events.d.ts:43_
 
 ▸ **removeAccount**(authID: _`Buffer`_): `Promise`<`any`>
 
-_Defined in src/index.ts:313_
+_Defined in [src/index.ts:313](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L313)_
 
 **Parameters:**
 
@@ -811,7 +811,7 @@ _Defined in node_modules/@types/node/events.d.ts:39_
 
 ▸ **removeEmptyKeyrings**(): `Promise`<`void`>
 
-_Defined in src/index.ts:214_
+_Defined in [src/index.ts:214](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L214)_
 
 **Returns:** `Promise`<`void`>
 
@@ -846,7 +846,7 @@ _Defined in node_modules/@types/node/events.d.ts:37_
 
 ▸ **restoreKeyring**(serialized: _`Object`_): `Promise`<`any`>
 
-_Defined in src/index.ts:484_
+_Defined in [src/index.ts:484](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L484)_
 
 **Parameters:**
 
@@ -865,7 +865,7 @@ The deserialized keyring.
 
 ▸ **setLocked**(): `Promise`<`any`>
 
-_Defined in src/index.ts:130_
+_Defined in [src/index.ts:130](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L130)_
 
 **Returns:** `Promise`<`any`>
 A Promise that resolves to the state.
@@ -900,7 +900,7 @@ _Defined in node_modules/@types/node/events.d.ts:40_
 
 ▸ **setUnlocked**(): `void`
 
-_Defined in src/index.ts:664_
+_Defined in [src/index.ts:664](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L664)_
 
 **Returns:** `void`
 
@@ -912,7 +912,7 @@ _Defined in src/index.ts:664_
 
 ▸ **signQuery**(flureeQuery: _`Query`_, fromAuthID: _`Buffer`_, opts?: _`object`_): `Promise`<`any`>
 
-_Defined in src/index.ts:426_
+_Defined in [src/index.ts:426](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L426)_
 
 **Parameters:**
 
@@ -933,7 +933,7 @@ The signed query object.
 
 ▸ **signRequest**(flureeRequest: _`Request`_, fromAuthID: _`Buffer`_, opts?: _`object`_): `Promise`<`any`>
 
-_Defined in src/index.ts:442_
+_Defined in [src/index.ts:442](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L442)_
 
 **Parameters:**
 
@@ -954,7 +954,7 @@ The signed request object.
 
 ▸ **signTransaction**(flureeTx: _`Transaction`_, fromAuthID: _`Buffer`_, opts?: _`object`_): `Promise`<`any`>
 
-_Defined in src/index.ts:410_
+_Defined in [src/index.ts:410](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L410)_
 
 **Parameters:**
 
@@ -975,7 +975,7 @@ The signed transaction object.
 
 ▸ **submitPassword**(password: _`string`_): `Promise`<`any`>
 
-_Defined in src/index.ts:152_
+_Defined in [src/index.ts:152](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L152)_
 
 **Parameters:**
 
@@ -994,7 +994,7 @@ A Promise that resolves to the state.
 
 ▸ **unlockKeyrings**(password: _`string`_): `Promise`<`any`[]>
 
-_Defined in src/index.ts:498_
+_Defined in [src/index.ts:498](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L498)_
 
 **Parameters:**
 
@@ -1013,7 +1013,7 @@ The keyrings.
 
 ▸ **updateMemStoreKeyrings**(): `Promise`<`any`>
 
-_Defined in src/index.ts:652_
+_Defined in [src/index.ts:652](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L652)_
 
 **Returns:** `Promise`<`any`>
 
@@ -1025,7 +1025,7 @@ _Defined in src/index.ts:652_
 
 ▸ **verifyPassword**(password: _`string`_): `Promise`<`void`>
 
-_Defined in src/index.ts:168_
+_Defined in [src/index.ts:168](https://github.com/StylusFrost/KeyringController/blob/fb8a3d0/src/index.ts#L168)_
 
 **Parameters:**
 
