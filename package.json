@@ -1,6 +1,6 @@
 {
   "name": "fluree-keyring-controller",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A module for managing various keyrings of Fluree accounts, encrypting them, and using them.",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
